@@ -13,3 +13,7 @@ Fitting a model to a data can be done with minimizing the least squares error wi
 
 ## Algorithm Implementation and Development
 The library scipy.optimize was use to find the parameters values that would minimize the least squares error for a particular model. The model as well as the least squares error function was provided as parameter for scipy.optimize minimize function, an example is shown in the figure below.
+
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/code_example.png" />
+</p>
