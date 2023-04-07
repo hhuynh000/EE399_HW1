@@ -12,8 +12,16 @@ Linear regression is a widely used method to fit data using a model that can be 
 Fitting a model to a data can be done with minimizing the least squares error with respect to the parameters, where $f(x_{j})$ is the model function and $y_{j}$ is the ground truth data: $$E = \sqrt{ \sum_{j=1}^{n} (f(x_{j}) - y_{j})^{2}}$$
 
 ## Implementation
-The library scipy.optimize was use to find the parameters values that would minimize the least squares error for a particular model with the Nelder-Mead method. The model as well as the least squares error function was provided as parameter for scipy.optimize minimize function, an example is shown in the figure below.
+The library scipy.optimize was use to find the parameters values that would minimize the least squares error for a particular model with the Nelder-Mead method. The model as well as the least squares error function was provided as parameter for scipy.optimize minimize function, an example is shown in the figure below. Similarly, model for line and parabola fitting are implementated in the same way. As for implementing 19th degree polynomial fitting, the function np.polyfit was used.
 
 <p align="center">
-  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/code_example.png" />
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/code_example.png"/>
 </p>
+<p align="center">
+  Figure 1. Model Definition
+</p>
+
+## Results
+Using the model $f(x) = A\cos{(Bx)}+Cx+D$ to fit the data
+
+## Conclusion 
