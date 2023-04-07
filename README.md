@@ -5,7 +5,7 @@
 A simple exploration of linear regression and different model 
 
 ## Table of Contents
-[Introduction](#Introduction)
+[Introduction](#introduction)
 
-<a name="Introduction"/>
+<a name="introduction"/>
 ## Introduction
