@@ -14,3 +14,4 @@ Linear regression is a widely used method to fit data using a model that can be 
 
 ## Background
 Fitting a model to a data can be done with minimizing the least squares error, E = \sqrt{(1/n)\sum_{j=1}^{n}(f(x_{j}) - y_{j})^{2})}
+n∑i=1i3=(n(n+1)2)2
