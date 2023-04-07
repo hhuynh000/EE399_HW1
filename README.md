@@ -7,4 +7,5 @@ A simple exploration of linear regression and different model
 ## Table of Contents
 [Introduction](#Introduction)
 
+<a name="Introduction"/>
 ## Introduction
