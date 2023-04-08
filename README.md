@@ -22,6 +22,15 @@ The library scipy.optimize was use to find the parameters values that would mini
 </p>
 
 ## Results
-Using the model $f(x) = A\cos{(Bx)}+Cx+D$ to fit the data
+Using the model $f(x) = A\cos{(Bx)}+Cx+D$ to fit the data by minimizing the least squares error with respect to the parameters: A,B,C and D. The resulting data fit is shown in the figure below.
+
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/cosine_fit.png"/>
+</p>
+<p align="center">
+  Figure 2. $f(x) = A\cos{(Bx)}+Cx+D$ Fit Plot
+</p>
+
+When two of the parameters are fixed and the other two are sweep from 0 to 10 with a step of 1, the resulting least squares error for all the combination is shown in the figure below as pcolor plots. Based on the result the parameter B has the least affect on the error, across the value 0 to 10 there are little changes in error. The parameter A has the second least affect on the error, as A increase from 0 to 10 the error increases. The parameter D has the second most affect on the error, as D increases the error decreases. The parameter C has the most affect on the error, as C increases the error increases.
 
 ## Conclusion 
