@@ -33,4 +33,30 @@ Using the model $f(x) = A\cos{(Bx)}+Cx+D$ to fit the data by minimizing the leas
 
 When two of the parameters are fixed and the other two are sweep from 0 to 10 with a step of 1, the resulting least squares error for all the combination is shown in the figure below as pcolor plots. Based on the result the parameter B has the least affect on the error, across the value 0 to 10 there are little changes in error. The parameter A has the second least affect on the error, as A increase from 0 to 10 the error increases. The parameter D has the second most affect on the error, as D increases the error decreases. The parameter C has the most affect on the error, as C increases the error increases.
 
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/pcolor.png"/>
+</p>
+<p align="center">
+  Figure 3. Parameters Sweep Error Plot
+</p>
+
+When the model function is changed to a line, parabola and 19th degree polynomial, the resulting fits is shown in the figure below. In each cases only the first 20 data points are used in training, while the rest of the data points are for testing. Overall, the line fit preform the best in term of minimizing the least squares error compared to a parabola fit and 19th degree polynomial fit.
+
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/fit1.png"/>
+</p>
+<p align="center">
+  Figure 4. Different Models Fit
+</p>
+
+Alternatively, when the training data is the first 10 and last 10 data points, the resulting fits is shown in the figure below. The line fit preform better than the previous training data set, this is possibly due to having both the starting and ending data points to better fit the overall data. The parabola fit preform significantly worst than the previous training data set. The 19th degree polynomial fit preform similar across the two training data set. In both cases, as expected the 19th degree polynomial model is able to fit most of the training data but failed in fitting the testing data set.
+
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/fit2.png"/>
+</p>
+<p align="center">
+  Figure 4. Different Models Fit
+</p>
+
 ## Conclusion 
+Through the exploration of linear regression the big take away is that the parameters used in linear regression plays a big role performance of the data fit. As demonstrated above, the type of model used and how the training and testing data is split can significantly change the outcome. When fitting data using linear regression, one must be mindful of the data and how to tune the parameters to get the best preformance. 
