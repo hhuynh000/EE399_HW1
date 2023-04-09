@@ -55,7 +55,7 @@ Alternatively, when the training data is the first 10 and last 10 data points, t
   <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/fit2.png"/>
 </p>
 <p align="center">
-  Figure 4. Different Models Fit
+  Figure 5. Different Models Fit
 </p>
 
 ## Conclusion 
