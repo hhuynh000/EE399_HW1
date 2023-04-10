@@ -25,7 +25,7 @@ The library scipy.optimize was use to find the parameters values that would mini
 Using the model $f(x) = A\cos{(Bx)}+Cx+D$ to fit the data by minimizing the least squares error with respect to the parameters: A,B,C and D. The resulting data fit is shown in the figure below.
 
 <p align="center">
-  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/cosine_fit.png"/>
+  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/cosine.png"/>
 </p>
 <p align="center">
   Figure 2. $f(x) = A\cos{(Bx)}+Cx+D$ Fit Plot
