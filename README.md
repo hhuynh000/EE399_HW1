@@ -31,7 +31,7 @@ Using the model $f(x) = A\cos{(Bx)}+Cx+D$ to fit the data by minimizing the leas
   Figure 2. $f(x) = A\cos{(Bx)}+Cx+D$ Fit Plot
 </p>
 
-When two of the parameters are fixed and the other two are sweep from 0 to 10 with a step of 1, the resulting least squares error for all the combination is shown in the figure below as pcolor plots. Based on the result the parameter B has the least affect on the error, across the value 0 to 10 there are little changes in error. The parameter A has the second least affect on the error, as A increase from 0 to 10 the error increases. The parameter D has the second most affect on the error, as D increases the error decreases. The parameter C has the most affect on the error, as C increases the error increases.
+When two of the parameters are fixed and the other two are sweep from 0 to 10 with a step of 1, the resulting least squares error for all the combination is shown in the figure below as pcolor plots. As seen in the plots, varying the parameters (A, B, C, D) create a color map of the model squares errors. In these color maps, a local minimum least squares error solution can be found. In some cases there are multiple minima solution like when sweeping C and D. When C is equal to 2 the solution is a local minimum for all value of D between 0 and 10.
 
 <p align="center">
   <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/pcolor.png"/>
